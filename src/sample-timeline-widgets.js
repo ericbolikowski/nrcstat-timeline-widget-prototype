@@ -1,5 +1,6 @@
 export const sampleTimelineWidgetObjects = [
   {
+    type: 'timeline',
     entries: [
       {
         title: '5th & 6th November 2017',

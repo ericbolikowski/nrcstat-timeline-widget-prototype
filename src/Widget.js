@@ -8,8 +8,8 @@ const isMobile = isMobileDevice();
 export function Widget({ entries }) {
   return (
     <div className={`container ${isMobile ? "mobile" : "desktop"}`}>
-      {entries.map(({title, subtitle, body}) => (
-        <div className="timeline-entry">
+      {entries.map(({title, subtitle, body}, key) => (
+        <div className="timeline-entry" key={key}>
           <div className="timeline-marker" />
           <div className="timeline-content-line" />
           <div className="timeline-content">
