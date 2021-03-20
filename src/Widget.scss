@@ -56,26 +56,27 @@
       font-weight: 300;
       font-size: 15px;
       line-height: 18px;
-      max-height: 165px;
-      overflow-y: hidden;
-      z-index: 0;
 
-      .fade-out-last-line {
-        background: linear-gradient(180deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 50%);
-        position: absolute;
-        /* important part of the trick: the fade box will only show when the containing div is tall enough */
-        top: 150px; 
-        width: 100%;
-        height: 15px;
-      }
-      .past-fade-out-expand-button {
+      // TODO: uncomment to continue implementing max-height and expand/collapse button
+      // max-height: 165px;
+      // overflow-y: hidden;
+
+      // .fade-out-last-line {
+      //   background: linear-gradient(180deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 50%);
+      //   position: absolute;
+      //   /* important part of the trick: the fade box will only show when the containing div is tall enough */
+      //   top: 150px; 
+      //   width: 100%;
+      //   height: 15px;
+      // }
+      // .past-fade-out-expand-button {
         
-        position: absolute;
-        /* important part of the trick: the fade box will only show when the containing div is tall enough */
-        top: 190px; 
-        left: 50px;
-        z-index: 9999;
-      }
+      //   position: absolute;
+      //   /* important part of the trick: the fade box will only show when the containing div is tall enough */
+      //   top: 190px; 
+      //   left: 50px;
+      //   z-index: 9999;
+      // }
 
     }
   }
